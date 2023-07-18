@@ -1,6 +1,6 @@
 public class ExceptionDemo8
 {
-	public static void main(Sting args[])
+	public static void main(String args[])
 	{
 	int num1 =6;
 	int num2 =-2;
