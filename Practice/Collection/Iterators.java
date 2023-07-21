@@ -1,15 +1,12 @@
-package Practice.Collection;
+// package Practice.Collection;/
 
 import java.util.*;
-
-
-
 
 public class Iterators {
     public static void main(String[] args) {
         
         ArrayList n = new ArrayList();
-
+        
         n.add(33);
         n.add(87);
         n.add(33);
@@ -38,11 +35,5 @@ System.out.println("----------List Iterator---------------");
         {
             System.out.println(lit.previous());
         }
-
-
-
-
-
-
     }
 }
