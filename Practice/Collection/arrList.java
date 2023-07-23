@@ -13,6 +13,9 @@ public class arrList {
         a.add("Kunal");
         a.add(23.22);
         System.out.println(a);
+         
+        System.out.println(a.get(2));
+
         ArrayList b = new ArrayList();
         
         for(int i =0;i<10;i++){
