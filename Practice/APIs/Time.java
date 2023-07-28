@@ -9,11 +9,11 @@ public class Time {
         ArrayList al = new ArrayList();
 
         
-        // // java.util.Date t = new java.util.Date();
-        // System.out.println(t);
+        java.util.Date ft = new java.util.Date();
+        System.out.println(ft);
 
-        // java.sql.Time t1 = new java.sql.Time(t.getTime());
-        // System.out.println(t1);
+        java.sql.Date t1 = new java.sql.Date(ft.getTime());
+        System.out.println(t1);
 
         LocalDate d = LocalDate.now();
         System.out.println(d);
@@ -21,8 +21,8 @@ public class Time {
         
 
         LocalTime t = LocalTime.now();
-        t.getHour();
-        t.getMinute();
+        // t.getHour();
+        // t.getMinute();
 
     
         

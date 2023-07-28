@@ -1,4 +1,4 @@
-package Hackerrank;
+package Hackerrank.Java;
 import java.util.Scanner;
 import java.util.ArrayList;
 
