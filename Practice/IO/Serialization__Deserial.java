@@ -19,7 +19,7 @@ class cho implements Serializable
     {
         this.name=name;
         this.age=age;
-        disp();
+        // disp();
 
     }
 
@@ -43,8 +43,8 @@ public class Serialization__Deserial {
         // ObjectOutputStream os = new ObjectOutputStream(bo);
         // os.close();
 
-
-        FileInputStream fi = new FileInputStream("/workspaces/PW/Practice/IO/Testing Folder/new.txt");
+        
+        FileInputStream fi = new FileInputStream("new.txt");
         BufferedInputStream bi = new BufferedInputStream(fi);
         ObjectInputStream oi = new ObjectInputStream(bi);
 
@@ -52,7 +52,7 @@ public class Serialization__Deserial {
 
         ou.disp();
 
-        oi.close();
+        fi.close();
 
        
         

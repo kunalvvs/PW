@@ -1,5 +1,6 @@
 package Hospital_Management;
 import java.lang.String;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Entry implements enter{
@@ -9,6 +10,7 @@ public class Entry implements enter{
     {
        Scanner sc = new Scanner(System.in);
        System.out.print("Pay fee 200rs of form: ");
+       int as;
         int fee = sc.nextInt();
       sc.nextLine();
        if(fee==200){
@@ -45,7 +47,10 @@ public class Entry implements enter{
         }
 
         System.out.println("\n----------Verified your details---------");
-      
+        Random r = new Random();
+        int randNum = r.nextInt(50);
+        int roomNum =r.nextInt(12);
+        System.out.println("Generated Token \nYour Token no. is "+randNum+"\nRoom no. "+roomNum);
          }
          else if(fee>200 || fee<200)
          {
