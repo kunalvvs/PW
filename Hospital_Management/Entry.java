@@ -1,5 +1,4 @@
 package Hospital_Management;
-import java.lang.String;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ public class Entry implements enter{
     {
        Scanner sc = new Scanner(System.in);
        System.out.print("Pay fee 200rs of form: ");
-       int as;
+      //  int as;
         int fee = sc.nextInt();
       sc.nextLine();
        if(fee==200){
@@ -24,8 +23,6 @@ public class Entry implements enter{
       int patientAge = sc.nextInt();
       sc.nextLine();
         
-      
-      
       
       System.out.print("Phone no.: ");
       long phoneNumber = sc.nextLong();

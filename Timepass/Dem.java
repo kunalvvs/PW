@@ -1,9 +1,13 @@
 class Dem{
 public static void main(String args[])
 {
-for(;;)
+// for(;;)
+// {
+// System.out.print("Hacked  ");
+// }
+while(true)
 {
-System.out.print("Hacked  ");
+    System.out.println("Wer");
 }
 }}
 

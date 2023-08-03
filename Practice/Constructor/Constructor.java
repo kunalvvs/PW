@@ -15,7 +15,7 @@ public class Constructor {
     
     Constructor()
     {
-        this(0);
+        this(60);
         int a1=78;
 
         System.out.println("Default Constructor");
@@ -31,6 +31,7 @@ public class Constructor {
         // this();
         System.out.println("Parameterized Constructor");
         System.out.println(a);
+        metthhh();
     }
     public void metthhh()
         {
@@ -42,8 +43,8 @@ class Demo
 {
     public static void main(String[] args) {
         Constructor c=new Constructor();
-        c.metthhh();
+        // c.metthhh();
         Constructor c1=new Constructor(10);
-        c.val(3,4);
+        c.val(8,4);
     }
 }

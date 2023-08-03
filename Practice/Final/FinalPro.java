@@ -4,6 +4,7 @@ final class F{
     {
         System.out.println("Constructor");
         this.met();
+        
     }
     final void met()
     {
