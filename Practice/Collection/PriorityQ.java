@@ -1,5 +1,4 @@
 package Practice.Collection;
-
 import java.util.PriorityQueue;
 
 public class PriorityQ {
@@ -16,6 +15,8 @@ public class PriorityQ {
         p1.add(23);
         p1.add(25);
         p1.add(44);
+        p1.add(44);
+        
         
 
         System.out.println(p);

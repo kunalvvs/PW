@@ -10,6 +10,7 @@ public class arrList {
         ArrayList a = new ArrayList();
 
         a.add(9);
+        a.add(9);
         a.add("Kunal");
         a.add(23.22);
         System.out.println(a);

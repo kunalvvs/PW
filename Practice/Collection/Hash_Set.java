@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Hash_Set {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        HashSet hs = new HashSet();
-        HashSet p = new HashSet();
+        LinkedHashSet hs = new LinkedHashSet();
+        LinkedHashSet p = new LinkedHashSet();
        
         for(int i =0;i<5;i++)
         {

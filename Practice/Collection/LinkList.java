@@ -9,6 +9,7 @@ public class LinkList {
 
         l.add(23);
         l.add("Hello");
+        l.add("Hello");
         // l.clear();
         // l.removeFirst();
         l.addFirst("Head");
