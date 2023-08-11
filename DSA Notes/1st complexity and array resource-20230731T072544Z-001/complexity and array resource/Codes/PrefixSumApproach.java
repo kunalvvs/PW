@@ -1,8 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-
-
 // time complexity : O(m * n)
 // space complexity: O(1)
 public class PrefixSumApproach {
@@ -67,6 +65,12 @@ public class PrefixSumApproach {
             for(int j=0; j<n; j++){
                 arr[i][j] = sc.nextInt();
             }
+        }
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+               System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
         }
 
         int r1, c1, r2, c2;
