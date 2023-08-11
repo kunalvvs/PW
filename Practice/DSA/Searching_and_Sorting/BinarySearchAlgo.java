@@ -12,23 +12,24 @@ public class BinarySearchAlgo {
 
         while(low<=high)
         {
-            int mid = low+(high-low)/2;
-            if(arr[mid]==target)
-            {
-                return mid;
-            }
-            else if(arr[mid]<high)
-            {
-                low=mid+1;
-            }
-            else
-            {
-                high=mid-1;
-            }
-            
+           int mid = low+(high-low)/2;
+           if(arr[mid]==target){
+            return mid;
+           }
+           else if(arr[mid]<target)
+           {
+             low = mid+1;
+           }
+           else
+           {
+             high = mid-1;
+           }
+          
         }
-        return 0;
+       return 0;
+        
     }
+
 
 
     public static void main(String[] args) {
@@ -36,13 +37,14 @@ public class BinarySearchAlgo {
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
         int arr[] = new int[n];
-        System.out.println("Entre elements : ");
+        System.out.println("Enter elements : ");
         for(int i=0;i<n;i++)
         {
             arr[i] = sc.nextInt();
             
         }
-       for(int i=0;i<n;i++)
+
+        for(int i=0;i<n;i++)
             {
             for(int j=i+1;j<n;j++)
         {
@@ -52,23 +54,17 @@ public class BinarySearchAlgo {
         arr[j] = t;
         }
     }
-    // int a1[] = new int[n];
-    for( i=0;i<n;i++)
-    {
-      System.out.println(arr[i]);
-
-    }
-
-
 }
+
+    ///we can use below method
+        // Arrays.sort(arr);
+        // System.out.println(Arrays.toString(arr));
 
         System.out.println("Find the element ");
         
-            int ta = sc.nextInt();
+            int target = sc.nextInt();
         
-        
-        
-        int res = binaryS(arr, ta);
+        int res = binaryS(arr, target);
 
         if(res==0)
         {
@@ -80,4 +76,7 @@ public class BinarySearchAlgo {
         }
 
     }
+
 }
+
+
