@@ -29,7 +29,7 @@ public class SquareRoot {
         return result;
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of which you want the square root: ");
         int num = sc.nextInt();

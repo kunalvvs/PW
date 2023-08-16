@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LowerBound {
 
+    
     public static int lb(int[] arr, int x)
     {
         int low = 0;

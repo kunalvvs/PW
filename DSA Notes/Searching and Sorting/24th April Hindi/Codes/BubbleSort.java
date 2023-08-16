@@ -28,7 +28,7 @@ class BubbleSort {
     }
     public static void main(String[] args) {
         // array definition
-        int[] arr = {20, 50, 10, 12, 45, 67, 90};
+        int[] arr = {23,5,43,45,2};
         // function calling
         bubbleSort(arr);
         System.out.println("Sorted array is: ");

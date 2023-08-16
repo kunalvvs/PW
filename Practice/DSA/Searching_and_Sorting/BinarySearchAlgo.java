@@ -19,6 +19,7 @@ public class BinarySearchAlgo {
            else if(arr[mid]<target)
            {
              low = mid+1;
+            
            }
            else
            {
@@ -27,6 +28,11 @@ public class BinarySearchAlgo {
           
         }
        return 0;
+
+
+
+    
+    
         
     }
 
@@ -78,5 +84,6 @@ public class BinarySearchAlgo {
     }
 
 }
+
 
 
