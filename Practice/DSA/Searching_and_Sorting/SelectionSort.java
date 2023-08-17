@@ -5,23 +5,26 @@ import java.util.*;
 public class SelectionSort {
     public static void sort(int arr[])
     {
-        for(int i=0;i<arr.length;i++)
+       for(int i=0;i<arr.length;i++)
+       {
+        int minPos=i;
+       
+        for(int j=i+1;j<arr.length;j++)
         {
-            int min_inx = i;
+            
+            if(arr[minPos]>arr[j])
             {
-                for(int j=i+1;j<arr.length;j++)
-                {
-                    if(arr[min_inx]>arr[j])
-                       min_inx=j;
-                }
+                minPos=j;
             }
-            if(min_inx!=i)
-            {
-                int t = arr[min_inx];
-                arr[min_inx]= arr[i];
-                arr[i] = t;
-            }
+            
         }
+        int temp = arr[minPos];
+        arr[minPos] = arr[i];
+        arr[i] = temp;
+       }
+       
+       
+        System.out.println("Sorted Array ");
        
       for(int i=0;i<arr.length;i++)
       {
