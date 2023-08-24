@@ -22,16 +22,19 @@ public class Fibbnacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number ");
-        double n = sc.nextInt();
-       
-    //    System.out.println(fibb(n));
+        int n = sc.nextInt();
+       int s=0;
+      //  System.out.println(fibb(n));
         
-    // for (int i = 0; i < 3; i++) {
-    //      s*=n;
-    // }
+    for (int i = 0; i < 3; i++) {
+         s=(n-1)+(n-2);
+    }
     
-   double s=Math.pow(n, 3);
+   // double s=Math.pow(n, 3);
+   for(int i=0;i<3;i++)
+   {
     System.out.println(s);
+   }
 
     }
 }

@@ -7,18 +7,18 @@ public class binarySearchRecur {
         int result = -1;
         while(low <= high){
             int mid = low + (high - low)/2;
-
+        
             // condition 1 - match
             if(arr[mid] == target){
                 return mid;
             }
-
+        
             // condition 2 - right side
             if(arr[mid] < target){
                 // recursive call
                 return binarySearch(arr, mid+1, high, target);
             }
-
+        
             // condition 3 - left side
             else{
                 // recursive call

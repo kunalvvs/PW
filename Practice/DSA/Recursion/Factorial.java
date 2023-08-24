@@ -4,7 +4,7 @@ package Practice.DSA.Recursion;
 import java.util.*;
 import java.io.*;
 class Factorial {
-    int s=1;
+   //  int s=1;
     public static int fact(int n)
     {
         if(n==0 || n==1)
@@ -24,16 +24,19 @@ class Factorial {
     Scanner sc =new Scanner(System.in);
     int n = sc.nextInt();
 
-    System.out.println(fact(n));
+   //  System.out.println(fact(n));
 
-    }
-    // int s=1;
-    // for(int i=1;i<=n;i++)
+    
+    int s=1;
+    for(int i=1;i<=n;i++)
   
-    // {
-    //     s*=i;
-    // }
-    // System.out.println(s);
+    {
+        s*=i;
+        System.out.print(i+" X ");
+    }
+    
+    System.out.println(" = "+ s);
 
 
     }
+   }
