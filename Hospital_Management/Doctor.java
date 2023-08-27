@@ -22,8 +22,10 @@ public class Doctor extends Entry{
             System.out.println("Dr.Amir Usain\nDr.B.K Gupta");
             reg();
             break;
+
             default:
-            System.out.println("Choose Doctor to checkup");
+            System.out.println("Oops! you have choose incorrect name\n Choose Doctor to checkup");
+            met();
         }
         
         

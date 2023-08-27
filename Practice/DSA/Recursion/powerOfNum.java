@@ -15,20 +15,29 @@ public class powerOfNum {
     }
     public static int Optimized(int x,int n)
     {
-
+       
         if(n==0)
         {
             return 1;
         }
+        
        
-         int halfPower = Optimized(x, n/2);
+        int halfPower = Optimized(x, n/2);
         int hp = halfPower*halfPower;
+        // if (n < 0) {
+        //     x = 1 / x;
+        //     n = -n;
+        // }
          if(n%2==0)
         {
-           return hp;   //we can write this ' hp= x*hp '
+           return hp;   //for odd condition we can write this ' hp= x*hp '
+        // hp=x*hp;   
         }
-        else
-            return x*hp;      //then here will come 'hp'
+         
+        else{
+            return x*hp; 
+             }     //then here will come 'hp'
+        // return hp;
         
         
     }
@@ -38,8 +47,8 @@ public class powerOfNum {
         int x = sc.nextInt();
         System.out.println("ENter power ");
         int n = sc.nextInt();
-        System.out.println(power(x, n));
-        System.out.println(Optimized(2, 5));
+        // System.out.println(power(x, n));
+        System.out.println(Optimized(x, n));
         
     }
 }

@@ -6,9 +6,9 @@ interface enter{
     public void reg();
     
 }
-public class Register
+public class Register 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         // Scanner sc = new Scanner(System.in);
         Doctor d = new Doctor();
         d.met();
