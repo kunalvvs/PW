@@ -29,7 +29,14 @@ public class Entry implements enter {
       long phoneNumber = sc.nextLong();
       sc.close();
        
-       
+        try{
+        for(int i=0;i<15;i++)
+          {
+          System.out.print(".");
+        Thread.sleep(500);
+          }       
+        }
+        catch(Exception e){}
         // System.out.println(phoneNumber);
          System.out.print("Verifing your details..");
         try{
@@ -44,7 +51,7 @@ public class Entry implements enter {
           System.out.println("");
         }
 
-        System.out.println("\n----------Verified your details---------");
+        System.out.println("\n---------------Verified your details-----------------");
         Random r = new Random();
         int randNum = r.nextInt(50);
         int roomNum =r.nextInt(12);

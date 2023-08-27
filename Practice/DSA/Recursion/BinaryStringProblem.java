@@ -14,6 +14,7 @@ public class BinaryStringProblem {
         BSP(1, str+"1", n-1);
       }
     }
+
     public static void main(String[] args) {
         BSP(0,"",5);
     }
