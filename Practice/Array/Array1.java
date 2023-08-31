@@ -1,5 +1,7 @@
 package Practice.Array;
 
+import java.math.BigInteger;
+
 public class Array1 {
     public static void main(String[] args) {
     int array_variable[][] = {{ 1, 2, 3}, { 4 , 5, 6}, { 7, 8, 9}};
