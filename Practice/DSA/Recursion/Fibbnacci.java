@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Fibbnacci {
      public static int fibb(int n)
-    
         {
          if(n==0 || n==1)
          {

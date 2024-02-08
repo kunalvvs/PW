@@ -8,7 +8,7 @@ abstract class A{
    int k;
    A()
    {
-    System.out.println("Constructor in abstract class");
+       System.out.println("Constructor in abstract class");
    }
 }
 class B extends A{

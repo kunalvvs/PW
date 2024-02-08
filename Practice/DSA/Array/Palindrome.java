@@ -1,7 +1,10 @@
 package Practice.DSA.Array;
 
 public class Palindrome {
+    
+    
     public static void main(String[] args) {
+        
         int arr[] = {3,2,3,34,2};
         int n = arr.length;
         int flag=0;
@@ -19,5 +22,6 @@ public class Palindrome {
         if(flag==0){
         System.out.println("It is palindrome");
         }
+
     }
 }
