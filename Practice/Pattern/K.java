@@ -2,15 +2,22 @@ package Practice.Pattern;
 
 public class K {
     public static void main(String[] args) {
-        int n=20;
-        for(int i=0;i<n;i++)
+        int n=4;
+        for(int i=1;i<4;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=1;j<5;j++)
             {
-                if(j==0 && j==j-1 || i==i+1 || j<(n-1)/2 || i<(n-1)/2)
+              if(i == 1 || j == 1 || i == 4 || j == 5)
+              {
                 System.out.println("*");
-               
+              }
+               else
+
+               {
+                System.out.println("");
+               }
             }
+            System.out.println();
         }
     }
 }
