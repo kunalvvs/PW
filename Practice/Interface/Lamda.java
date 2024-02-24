@@ -1,4 +1,5 @@
-
+package Practice.Interface;
+ import java.util.*;
 @FunctionalInterface
 interface fg{
     void me(int a,int b);

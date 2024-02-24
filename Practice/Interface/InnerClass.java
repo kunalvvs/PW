@@ -1,4 +1,4 @@
-// package Practice.Interface;
+package Practice.Interface;
 
 class O{
  public void outside()

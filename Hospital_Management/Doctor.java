@@ -14,6 +14,10 @@ public class Doctor extends Entry{
             System.out.println("Physcians: Dr.Ajay Sharma\nDr.Rahul Rajput ");
             reg();
             break;
+            case "physician":
+            System.out.println("Physcians: Dr.Ajay Sharma\nDr.Rahul Rajput ");
+            reg();
+            break;
             case "Radiologist":
             System.out.println("Dr.Titu Verma\nDr.Shubh Agarwal");
             reg();

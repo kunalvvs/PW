@@ -1,4 +1,4 @@
-
+package Practice.Interface;
 interface as{
     void tr(int f);
     
