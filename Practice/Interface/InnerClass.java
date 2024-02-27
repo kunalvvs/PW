@@ -7,7 +7,7 @@ class O{
     
  }
 
-    static class inside {
+  static class inside {
         public void i()
         {
         System.out.println("Inside class");

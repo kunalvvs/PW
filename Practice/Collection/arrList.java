@@ -20,7 +20,7 @@ public class arrList {
         ArrayList b = new ArrayList();
         
         for(int i =0;i<10;i++){
-            a.add(23);
+            // a.add(23);
             
             System.out.println(a);
         }
@@ -29,13 +29,11 @@ public class arrList {
         b.add(23);
         b.add("Next Number");
         b.add(2,"Add");
-        
+        System.out.println("\n");
+        System.out.println(b);
        
         System.out.println(b.size());
         b.get(3);
         System.out.println(b.get(3));
-        
-
-
     }
 }

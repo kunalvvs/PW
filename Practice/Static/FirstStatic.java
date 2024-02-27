@@ -17,6 +17,7 @@ public class FirstStatic {
     {
         a=10;
         s="Hello";
+        System.out.println("setValue met");
     }
     void print()
     {

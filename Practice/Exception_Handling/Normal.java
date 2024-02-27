@@ -19,7 +19,7 @@ public  class Normal {
   }
   catch(Exception e)
   {
-    System.out.println("something went wrong it think this exception "+e);
+    System.out.println("something went wrong i think this exception "+e);
   }
   finally{
     System.out.println("Execute successful");

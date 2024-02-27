@@ -7,7 +7,10 @@ public class EnhanceLoop {
         int a[][] = {
             {2,4,3},{3,53,4,4}
         };
+
+        int a1[] = { 2,4,2,4};
         String sd[] = {"New", "Sec"};
+        System.out.println("------------------------------\nFor 2D Array");
         for( int  s[] : a)
         {
             for(int d:s)
@@ -16,7 +19,14 @@ public class EnhanceLoop {
         }
         System.out.println();
 
+
     }
+    System.out.println("----------------------------------\nFor 1D Array");
+    for(Object obj : a1)
+    {
+        System.out.println(obj);
+    }
+    System.out.println("-----------------------------------\nFor String");
     for(String f:sd)
     {
         System.out.println(f);

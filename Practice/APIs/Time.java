@@ -6,14 +6,14 @@ import java.time.LocalTime;
 public class Time {
     public static void main(String[] args) {
 
-        ArrayList al = new ArrayList();
+        // ArrayList al = new ArrayList();
 
         
         java.util.Date ft = new java.util.Date();
-        System.out.println(ft);
+        System.out.println("By Util Package : "+ft);
 
         java.sql.Date t1 = new java.sql.Date(ft.getTime());
-        System.out.println(t1);
+        System.out.println("By SQL Package : "+t1);
 
         LocalDate d = LocalDate.now();
         System.out.println(d);

@@ -9,8 +9,6 @@ public class streamApi {
         
         Stream<Integer> st = a.stream();
           
-        
-       
         Stream ne = st.sorted().map(n->n*n).limit(4);
         
         ne.forEach(n->System.out.println(n));

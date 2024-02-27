@@ -13,7 +13,7 @@ public class Throw {
     public static void main(String[] args) {
       
         int a = 9;
-        int b= 0 ;
+        int b= 4 ;
         try{
         System.out.println(a/b);
         throw new Custom("Error");
