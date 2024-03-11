@@ -3,7 +3,7 @@ package Practice.APIs;
 enum test{
 
     PASS,FAIL;
-
+ 
 }
 
 public class EnumSwitch {

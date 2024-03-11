@@ -74,10 +74,5 @@ public class Entry implements enter {
         System.out.println("Don't support alphabets");
         reg();
       }
-
     }
-    
-
-
-    
 }

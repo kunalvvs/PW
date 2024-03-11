@@ -12,6 +12,7 @@ public class Annonymous {
             System.out.println("Annonymous "+" : " + f);
         }
     };
+    
     o.tr(24);
  }
 }

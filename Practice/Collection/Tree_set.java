@@ -14,7 +14,7 @@ public class Tree_set {
         t1.add(33);
         t1.add(35);
         t1.add(78);
-        
+        // t1.add(35); duplicate value not allowed 
     
         System.out.println(t1);
 

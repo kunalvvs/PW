@@ -9,11 +9,11 @@ public class Rev {
 
         String ar[]=st.split(" ");
 
-        // for (int i = st.length()-1; i>=0; i--)     //Simple reverse
-        // {
-        //     st1= st1+st.charAt(i);
-        // }
-        // System.out.println("Reversing: " + st1);
+        for (int i = st.length()-1; i>=0; i--)     //Simple reverse
+        {
+            st1= st1+st.charAt(i);
+        }
+        System.out.println("Simple Reversing: " + st1);
 
         for ( String n : ar)
         {
@@ -23,6 +23,6 @@ public class Rev {
             }
             st1=st1+" ";
         }
-        System.out.println("Reveresing "+st1);
+        System.out.println("Word Reveresing "+st1);
     }
 }

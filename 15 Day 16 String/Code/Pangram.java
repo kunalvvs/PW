@@ -5,7 +5,9 @@ public class Pangram
     public static void main(String[] args) 
     {
        boolean flag=false;
-        String str="THE QUICK ROWN FOX JUMPS OVER LAZY DOG";
+        // String str="THE QUICK ROWN FOX JUMPS OVER LAZY DOG";
+        String str="Waltz bad nymph for quick jigs vex";
+        str=str.toUpperCase();
         str=str.replace(" ", "");
         char []ch=str.toCharArray();
 
@@ -23,14 +25,9 @@ public class Pangram
                 flag=true;
             }
         }
-        
         if(flag==false)
         {
             System.out.println("Its pangram");
         }
-        
-        
-    
     }
-    
 }

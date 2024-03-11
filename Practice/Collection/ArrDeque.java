@@ -11,6 +11,7 @@ public class ArrDeque {
         ar.add(43);
         ar.add(43);
         ar.add("Rear");
+        
 
         System.out.println(ar);
 

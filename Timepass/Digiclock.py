@@ -5,7 +5,7 @@ main = Tk()
 main.title('clock')
 def clock():
     tick = strftime('%H:%M:%S %p')
-
+    
     clock_label .config(text=tick)
     clock_label .after(1000,clock)
 
@@ -14,3 +14,4 @@ clock_label.pack(anchor='center')
 clock()
 mainloop()
     
+   

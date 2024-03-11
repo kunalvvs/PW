@@ -8,7 +8,6 @@ public class Time {
 
         // ArrayList al = new ArrayList();
 
-        
         java.util.Date ft = new java.util.Date();
         System.out.println("By Util Package : "+ft);
 
@@ -17,15 +16,12 @@ public class Time {
 
         LocalDate d = LocalDate.now();
         System.out.println(d);
-       
-        
+    
 
         LocalTime t = LocalTime.now();
         // t.getHour();
         // t.getMinute();
-
-    
-        
+ 
         System.out.println(t);
         
     }

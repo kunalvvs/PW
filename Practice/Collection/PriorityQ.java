@@ -12,10 +12,11 @@ public class PriorityQ {
         p.add("dff");
         p.add("Kunal");
 
-        p1.add(23);
+        p1.add(63);
         p1.add(25);
+        p1.add(49);
         p1.add(44);
-        p1.add(44);
+        p1.add(32);
         
         
 

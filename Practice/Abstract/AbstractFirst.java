@@ -3,7 +3,7 @@ package Practice.Abstract;
 abstract class A{
      abstract void sd();
     {
-        System.out.println("abstarct methid ");
+        System.out.println("abstract method ");
     }
    int k;
    A()

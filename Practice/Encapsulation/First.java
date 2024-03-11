@@ -42,8 +42,9 @@ class MainMethod
         f.name("Kunal");
         f.sal(10000);
         
-        f.name("Rahul");
+        
         f.show();
         System.out.println(f.getName());
+        
     }
 }

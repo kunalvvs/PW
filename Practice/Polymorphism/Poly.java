@@ -43,7 +43,7 @@ public class Poly{
         Poly3 obj2 = new Poly3();
         Poly4 obj3 = new Poly4();
         Ma obj4 = new Ma();
-        obj4.pol(obj3);
+        obj4.pol(obj2);
         
        
     }

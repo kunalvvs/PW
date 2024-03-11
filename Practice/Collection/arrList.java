@@ -16,6 +16,7 @@ public class arrList {
         System.out.println(a);
          
         System.out.println(a.get(2));
+        
 
         ArrayList b = new ArrayList();
         
@@ -29,6 +30,7 @@ public class arrList {
         b.add(23);
         b.add("Next Number");
         b.add(2,"Add");
+        b.add(4, 45);
         System.out.println("\n");
         System.out.println(b);
        

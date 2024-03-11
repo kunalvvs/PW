@@ -10,7 +10,7 @@ class Custom extends Exception{
 }
 
 public class Throw {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
       
         int a = 9;
         int b= 4 ;

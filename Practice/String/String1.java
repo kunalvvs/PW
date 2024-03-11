@@ -2,7 +2,7 @@ package Practice.String;
 class String1
 {
     public static void main(String[] args) {
-        String dn = new String("it is inmutable String");
+        String dn = new String("it is immutable String");
         dn=dn.concat(" new line");
 
         String s2 = "Innovative";
