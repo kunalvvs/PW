@@ -14,8 +14,8 @@ public class LaunchMulti2
        t.setName("PW");
        t.setPriority(1);
 
-       String name1=Thread.currentThread().getName();
-       System.out.println("The name of main thread is "+name1);
+        name=Thread.currentThread().getName();
+       System.out.println("The name of main thread is "+name);
       System.out.println("the priority of main thread is "+Thread.currentThread().getPriority());
      
    

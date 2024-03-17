@@ -19,6 +19,7 @@ public class Gen1
 
         al.add("Hyder");
         al.add("PW");
+        
 
         //al.add(10);
 
@@ -28,6 +29,10 @@ public class Gen1
 
         String name1 =al.get(0);
         String name2 =al.get(1);
+
+        System.out.println(al);
+        System.out.println(name1);
+        System.out.println(name2);
 
 
     }

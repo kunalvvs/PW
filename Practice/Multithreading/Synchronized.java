@@ -1,7 +1,7 @@
 
 class rr implements Runnable{
 
-    /*synchronized */public void run()
+    /*synchronized*/ public void run()
     {
        /*we can use synchronized block here  */try{
         synchronized(this){ 
@@ -11,7 +11,7 @@ class rr implements Runnable{
             Thread.sleep(2000);
             System.out.println(Thread.currentThread().getName()+" stop ");
         }
-       }
+    }
         catch(Exception e)
         {
             System.out.println("Wait...");
@@ -32,9 +32,7 @@ public class Synchronized {
         t1.start();
         t2.start();
         t3.start();
-        t1.interrupt();
-
-
+        t2.interrupt();
 
     }
 }

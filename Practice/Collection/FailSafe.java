@@ -22,26 +22,26 @@ public class FailSafe {
         //     System.out.println(a.get(i));
         //     a.add(100);
         // }
-
+        System.out.println("------------By Loop-------------");
         for (Object o : a) {  //fail fast 
 
             System.out.println(o);
             // a.add(100);   // it gives concurrent exception
         }
-        System.out.println("------------For Loop-------------");
+        System.out.println("----------------Iterator-----------------");
         Iterator it = a.iterator();
 
         while(it.hasNext())
         {
             System.out.println(it.next());
         }
-         System.out.println("----------------Iterator-----------------");
+       System.out.println("CopyWrite Array");
         CopyOnWriteArrayList co = new CopyOnWriteArrayList();
 
           co.add(23);
-        co.add(45);
-        co.add(87);
-        co.add(76);
+          co.add(45);
+          co.add(87);
+          co.add(76);
 
         // for (Object o1 : co) {
 

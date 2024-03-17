@@ -10,24 +10,35 @@ import java.util.*;
 public class Hash_Set {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedHashSet hs = new LinkedHashSet();
+        Set hs = new LinkedHashSet();
         LinkedHashSet p = new LinkedHashSet();
-       
-        for(int i =0;i<5;i++)
+        
+        System.out.println("--------------------  Looping   ----------------");
+        System.out.println("Type any five string ");
+        for(int i =0;i<5;i++)            //By looping 
         {
           String  p1 = sc.nextLine();
             p.add(p1);
             System.out.println(p);
-        }  
+        } 
+        
+        System.out.println("Collection "+p);
         hs.add(23);
         hs.add(34);
         hs.add(76);
         hs.add(78);
-        
-        Iterator it = hs.iterator();
+        System.out.println("-------------------   Iterator   ----------------");
+        Iterator it = hs.iterator();   //By Iterator 
         while(it.hasNext())
         {
             System.out.println(it.next());  
+        }
+
+        System.out.println("Second iteration");
+        Iterator it1 = p.iterator();
+        while(it1.hasNext())
+        {
+            System.out.println(it1.next());
         }
         
         System.out.println(hs);

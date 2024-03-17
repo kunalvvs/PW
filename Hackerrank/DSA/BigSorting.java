@@ -19,10 +19,6 @@ class BigSorting {
      
      }
    return sort(a, i+1);
-
-    
-    
-
     }
    
     public static void main(String[] args) {
@@ -38,10 +34,10 @@ class BigSorting {
         for(int i=0;i<n;i++)
         System.out.println(sort(a, 0));
         
-        // for(int i=0;i<n;i++)
-        // {
-        //     System.out.println(a[i]);
+        for(int i=0;i<n;i++)
+        {
+            System.out.println(a[i]);
 
-        // }
+        }
     }
 }

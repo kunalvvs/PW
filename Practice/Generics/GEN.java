@@ -1,5 +1,7 @@
 package Practice.Generics;
 import java.util.*;
+import java.lang.*;
+
 class gen<T>
 {
     gen(T ob)
@@ -14,7 +16,7 @@ class gen<T>
         }
 }
 public class GEN {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         gen<String> k = new gen<String>("55");
         // disp();
     }

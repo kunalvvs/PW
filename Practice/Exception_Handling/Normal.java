@@ -13,13 +13,13 @@ public  class Normal {
           int b = sc.nextInt();
         System.out.println(a/b);
   }
-  
+
   catch(Exception e)
   {
     System.out.println("something went wrong i think this exception is "+e);
   }
   finally{
-    System.out.println("Execute successful");
+    // System.out.println("Execute successful");
   }
   
           

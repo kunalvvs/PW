@@ -6,20 +6,16 @@ class Example implements Runnable{
         for(int i=0;i<3;i++)
         {
             try{
-                System.out.println("Focus is impoetant");
+                System.out.println("Focus is impotant");
               Thread.sleep(2000);
             }
             catch(Exception e)
             {
                 System.out.println("Thread is interrupted");
-            }
-            
+            }   
         }
-        
-        
     }
 }
-
 public class LaunchMulti12 
 {
     public static void main(String[] args) 
@@ -30,9 +26,6 @@ public class LaunchMulti12
 
         t1.start();
         t1.interrupt();
-
-
-        
-    }
-    
+   
+    } 
 }

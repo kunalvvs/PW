@@ -6,7 +6,7 @@ class ex  {
     }
 
 }
-class ThreadFirst1 extends ex implements Runnable  //we can use extends Thread here
+class ThreadFirst1 extends ex implements Runnable //we can use extends Thread here
 {
     public void run()
     {
@@ -38,9 +38,9 @@ public class ThreadFirst {
         Thread t1 = new Thread(f);
         Thread t2 = new Thread(s);
         
-        t1.start();
-        t2.start();
-        ed.run();
+        t1.start();   //execute by thread scheduler 
+        t2.start();    //execute by thread scheduler due to start()
+        ed.run();      //execute without thread scheduler 
         System.out.println("Main finished");
     }
 }

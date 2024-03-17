@@ -9,7 +9,7 @@ def clock():
     clock_label .config(text=tick)
     clock_label .after(1000,clock)
 
-clock_label = Label(main,font=('arial',50),background='blue',foreground='white')
+clock_label = Label(main,font=('arial',50),background='red',foreground='#fff')
 clock_label.pack(anchor='center')
 clock()
 mainloop()

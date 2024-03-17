@@ -8,8 +8,8 @@ public class Iterators {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
- ArrayList mylist = new ArrayList();
-//   ArrayList<Integer> mylist1 = new ArrayList<Integer>();
+    ArrayList mylist = new ArrayList();
+     // ArrayList<Integer> mylist1 = new ArrayList<Integer>();
        
        Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
@@ -34,6 +34,7 @@ public class Iterators {
             Object element = it.next();
           
             System.out.println(element);
+            // System.out.println(it.next());
         }
     }
 }

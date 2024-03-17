@@ -60,12 +60,7 @@ class Library implements Runnable
            {
             System.out.println("Some problem");
            }
-
-
         }
-       
-                
-
     }
 }
 
@@ -82,10 +77,7 @@ public class LaunchMulti11
          t2.setName("STUDENT2");
 
          t1.start();
-         t2.start();
-
-         
-         
+         t2.start(); 
         
     }
     

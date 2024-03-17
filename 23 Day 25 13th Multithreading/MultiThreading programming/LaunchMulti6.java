@@ -64,6 +64,7 @@ public class LaunchMulti6
 
         thread1.setName("CALC");
         thread2.setName("PRINT");
+        
 
         thread1.start();
         thread2.start();

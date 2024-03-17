@@ -7,7 +7,7 @@ import java.lang.*;
 public class arrList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList a = new ArrayList();
+        List a = new ArrayList();
 
         a.add(9);
         a.add(9);

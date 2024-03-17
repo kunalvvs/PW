@@ -15,6 +15,7 @@ public class LaunchMulti3
     {
         System.out.println("Main Thread"); 
 
+       
         MyThread t=new MyThread();
         t.start();
 

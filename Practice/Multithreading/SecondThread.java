@@ -20,7 +20,7 @@ class SD extends extra implements Runnable{
 {
     System.out.println("something went wrong interpted ");
 }
-}
+   }
 }
 public class SecondThread  {
     public static void main(String[] args) {
@@ -36,7 +36,9 @@ public class SecondThread  {
         sk.join();
        
         }
-        catch(Exception e){}
+        catch(Exception e){
+            System.out.println("no exceptions");
+        }
         
        
         System.out.println("Ended main method ");

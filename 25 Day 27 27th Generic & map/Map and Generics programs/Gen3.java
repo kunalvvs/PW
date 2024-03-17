@@ -1,7 +1,6 @@
 
 import java.util.*;
 
-
 class Gen<T>
 {
     T obj;
@@ -20,8 +19,6 @@ class Gen<T>
     {
         return obj;
     }
-
-
 }
 public class Gen3 
 {
@@ -39,21 +36,15 @@ public class Gen3
         g1.disp();
         System.out.println(g1.getObj());
 
+        ArrayList<Gen> list1=new ArrayList<Gen>();
 
+        List<String> list2=new ArrayList<String>();
 
-    //     ArrayList<Gen> list1=new ArrayList<Gen>();
-
-    //     List<String> list2=new ArrayList<String>();
-
-    //     Collection<Integer> list3=new ArrayList<Integer>();
-
-    //    // List<Object> list4=new ArrayList<String>(); CE
-    //    List<Integer> list5=new ArrayList<Integer>();
-
-    //    //List<int> list6=new ArrayList<int>();
-
-
+        Collection<Integer> list3=new ArrayList<Integer>();
         
-    }
-    
+       // List<Object> list4=new ArrayList<String>(); CE
+       List<Integer> list5=new ArrayList<Integer>();
+
+       //List<int> list6=new ArrayList<int>();   
+    } 
 }
