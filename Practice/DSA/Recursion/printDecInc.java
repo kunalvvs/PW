@@ -4,7 +4,7 @@ public class printDecInc {
     public static void printdec(int n)
     {
         if(n==1)
-
+        
         {
             System.out.println(n);
             return ;
@@ -14,7 +14,7 @@ public class printDecInc {
              
             System.out.println(n);
             printdec(n-1);
-           
+            
         }
     }
        

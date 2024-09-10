@@ -2,8 +2,8 @@ package Practice.DSA.Array;
 
 public class MissingNum {
     public static void main(String[] args) {
-        int arr[] = {2,4,1,5,6,7,3};
-        System.out.println("✅  ✅  ✅ ✅ ✅ ✅ ✅  ✅");
+        int arr[] = {2,4,1,6,7,3};
+        System.out.println("✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅");
         int m = arr.length;
         int n = m+1;
         System.out.println("Length : "+m);
