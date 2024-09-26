@@ -9,6 +9,7 @@ public class Entry implements enter {
     {
        Scanner sc = new Scanner(System.in);
        System.out.print("Pay fee 200rs of form: ");
+       
       //  int as;
       try{
         int fee = sc.nextInt();
