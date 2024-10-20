@@ -1,8 +1,8 @@
 package Practice.Abstract;
 
 abstract class A{
-     abstract void sd();
-    {
+     abstract void sd();  
+    { //abstract block will call without creating object
         System.out.println("abstract method ");
     }
    int k;
@@ -20,6 +20,6 @@ class B extends A{
 public class AbstractFirst {
     public static void main(String[] args) {
         A o = new B();
-        o.sd();
+        // o.sd();
     }
 }
