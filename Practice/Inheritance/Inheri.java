@@ -1,4 +1,4 @@
-package Practice.Generics.Inheritance;
+package Inheritance;
 
 public class Inheri {
     private String name = "String name";
