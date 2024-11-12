@@ -1,3 +1,4 @@
+import java.util.*;;
 public class PatternH2 
 {
     public static void main(String[] args) {
