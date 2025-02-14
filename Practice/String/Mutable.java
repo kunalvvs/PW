@@ -22,6 +22,5 @@ public class Mutable {
         System.out.println(s1+s2);
         System.out.println(ss.length());
         System.out.println(ss.capacity());   
-        
     }
 }
