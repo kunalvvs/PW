@@ -7,7 +7,7 @@ public class K {
         {
             for(int j=1;j<n;j++)
             {
-              if(i == 1 && i == n && j==1   || i==0 || j==5)
+              if(i == 1 && i == n && j==1   || i==0 || j==5 ||)
               {
                 System.out.println("*");
               }
