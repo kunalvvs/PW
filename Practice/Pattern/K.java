@@ -7,13 +7,13 @@ public class K {
         {
             for(int j=1;j<n;j++)
             {
-              if(i == 1 && i == n && j==1   || i==0 || j==5 || j==1)
+              if( i==1 || j==1)
               {
                 System.out.println("*");
               }
               
             }
-            System.out.println();
+            // System.out.println();
         }
     }
 }
