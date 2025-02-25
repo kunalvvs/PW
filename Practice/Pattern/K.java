@@ -7,7 +7,7 @@ public class K {
         {
             for(int j=1;j<n;j++)
             {
-              if( i==1 || j==1 fxb)
+              if( i==1 || j==1 fxb fhnfg)
               {
                 System.out.println("*");
               }
