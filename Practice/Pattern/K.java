@@ -12,7 +12,6 @@ public class K {
               {
                 System.out.println("*");
               }
-              
             }
             // System.out.println();
         }
