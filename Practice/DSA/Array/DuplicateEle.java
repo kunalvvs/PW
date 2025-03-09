@@ -2,7 +2,7 @@ package Practice.DSA.Array;
 //Finding duplicate numbers or element in given array
 public class DuplicateEle {
     public static void main(String[] args) {
-        int arr[] = {3,45,2,1,6,6,3};
+        int arr[] = {3,45,7,2,1,6,6,7,3};
         int n = arr.length;
 
         for(int i=0;i<n;i++)
