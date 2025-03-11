@@ -1,0 +1,89 @@
+https://docs.google.com/spreadsheets/d/1Vb97Fj-_vgeCmsMSBusFJqtSfhr_cgf-_PRRl6zM3ac/edit?gid=0#gid=0
+	QUESTIONS	DONE
+NUMBERS		
+1	Climbing Stairs	
+2	Check if a given year is leap year	
+3	Prime Numbers	
+4	Number is Positive, Negative, Odd, Even, Zero	
+5	All divisors of a natural number	
+6	Convert a Number to Hexadecimal	
+7	Valid Perfect Square	
+8	Program to add two fractions	
+9	Fibonacci numbers	
+10	Add Digits	
+11	Replace all ‘0’ with ‘5’ in an input Integer	
+12	Perfect Number	
+13	Armstrong Numbers	
+14	Replace all ‘0’ with ‘5’ in an input Integer	
+15	Sum of first n natural numbers	
+16	Permutations to arrange N persons around a circular table	
+17	Roots of Quadratic equation	
+18	Climbing Stairs	
+19	Maximum Product of Three Numbers	
+20	Happy Number	
+		
+ARRAYS		
+1	Two Sum	
+2	Program to check if an array is sorted or not	
+3	Sum of elements in a given array	
+4	Pascal's Triangle	
+5	Counting frequencies of array elements	
+6	Move Zeroes	
+7	Add an element to an Array	
+8	Contains Duplicate	
+9	Find duplicates in O(n) time and O(1) extra space	
+10	Print array after it is right rotated K times	
+11	Single Number	
+12	Mean and median of an unsorted array	
+13	Smallest and second smallest elements in an array	
+14	Third Maximum Number	
+15	Sort elements by frequency	
+16	Majority Element	
+17	Next Greater Element I	
+18	Intersection of Two Arrays	
+19	Find Peak Element	
+20	Longest Continuous Increasing Subsequence	
+		
+STRINGS		
+1	Given String is Palindrome or not	
+2	Find Common Characters	
+3	Remove character	
+4	Reverse a string	
+5	Remove All Adjacent Duplicates In String	
+6	Uncommon Words from Two Sentences	
+7	Excel Sheet Column Number	
+8	Frequency of characters in a string	
+9	Sort string of characters	
+10	Valid Anagram	
+11	Convert characters of a string to opposite case	
+12	Count Binary Substrings	
+13	Common subsequence in two strings	
+14	Count Unique Characters of All Substrings of a Given String	
+15	Find the Difference	
+16	Duplicates in the input string	
+17	Count vowels, consonants, digits, and special characters in a string	
+18	Detect Capital	
+19	Fizz Buzz	
+20	Check if a string is substring of another	
+		
+SORTING		
+1	Bubble Sort	
+2	Selection Sort	
+3	Insertion Sort	
+4	Merge Sort	
+5	Quick Sort	
+		
+NUMBER SYSTEM		
+1	Convert Octal to decimal	
+2	Convert Binary to Decimal	
+3	Decimal to Binary conversion	
+4	Convert decimal to octal	
+5	Convert decimal to octal	
+		
+OTHERS		
+1	Linear Search	
+2	Binary Search	
+3	Detect loop in a linked list	
+4	Print the middle of a given linked list	
+5	Can we reverse a linked list in less than O(n)?	
+		
