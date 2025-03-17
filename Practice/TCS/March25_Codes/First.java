@@ -6,10 +6,6 @@ public class First {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        List l = new ArrayList();
-        l.add(13);
-
-        System.out.println("ArrayList "+l);
         int n = sc.nextInt();
         int n1 = sc.nextInt();
 
