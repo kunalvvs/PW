@@ -9,7 +9,7 @@ public class FirstList {
         int n = sc.nextInt();
         int n1 = sc.nextInt();
         
-        List<Integer> numbers = new ArrayList<>();
+        List<Integer> numbers = new ArrayList();
         
         for (int i = n; i <= n1; i++) {
             numbers.add(i);
