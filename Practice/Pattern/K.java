@@ -8,7 +8,7 @@ public class K {
         {
             for(int j=1;j<n;j++)
             {
-              if( i==1 || j==n )
+              if( i==1 || j==n J )
               {
                 System.out.println("*");
               }
