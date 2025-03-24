@@ -1,4 +1,4 @@
-package Practice.APIs;
+package APIs;
 
 import java.util.ArrayList;
 import java.util.*;
