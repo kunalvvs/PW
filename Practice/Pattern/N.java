@@ -1,5 +1,5 @@
 
-package Practice.Pattern;
+package Pattern;
 
 public class N {
 

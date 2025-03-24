@@ -1,4 +1,5 @@
-package Practice.Map;
+package Map;
+
 import java.util.*;
 import java.util.Map.*;
 // import java.text.CollationElementIterator;

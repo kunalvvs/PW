@@ -1,4 +1,4 @@
-package Practice.Static;
+package Static;
  class someChecks {
     static{
         System.out.println("Hello");
