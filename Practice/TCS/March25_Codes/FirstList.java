@@ -1,4 +1,4 @@
-package Practice.TCS.March25_Codes;
+package TCS.March25_Codes;
 
 import java.util.*;
 
