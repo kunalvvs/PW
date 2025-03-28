@@ -12,8 +12,6 @@ public class Looping {
                 s =s+i;
                  count++;
             }
-            
-          
         }
 
         System.out.println("Sum of total even number is "+s);
