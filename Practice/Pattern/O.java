@@ -1,4 +1,4 @@
-package Pattern;
+package Practice.Pattern;
 
 public class O {
 
