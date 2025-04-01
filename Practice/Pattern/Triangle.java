@@ -1,4 +1,4 @@
-package Practice.Pattern;
+package Pattern;
 
 public class Triangle {
     public static void main(String[] args) {
