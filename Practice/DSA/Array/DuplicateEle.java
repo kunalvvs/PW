@@ -1,4 +1,4 @@
-package DSA.Array;
+package Practice.DSA.Array;
 //Finding duplicate numbers or element in given array
 public class DuplicateEle {
     public static void main(String[] args) {
