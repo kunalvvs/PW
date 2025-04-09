@@ -1,5 +1,5 @@
 
-package Pattern;
+// package Pattern;
 
 public class N {
 
