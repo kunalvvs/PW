@@ -1,4 +1,4 @@
-package Pattern;
+// package Pattern;
 
 public class Diamond {
     public static void main(String[] args) {
