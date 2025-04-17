@@ -1,5 +1,5 @@
 // filepath: e:\MCA Pre\PW\PW\Practice\Pattern\InvertedRightAngledTriangle.java
-// package Practice.Pattern;
+// package Pattern;
 
 public class InvertedRightAngledTriangle {
     public static void main(String[] args) {
