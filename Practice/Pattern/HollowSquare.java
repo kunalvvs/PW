@@ -1,4 +1,4 @@
-// package Practice.Pattern;
+package Practice.Pattern;
 
 public class HollowSquare {
     public static void main(String[] args) {
