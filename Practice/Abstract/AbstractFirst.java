@@ -1,4 +1,4 @@
-package Practice.Abstract;
+// package Practice.Abstract;
 
 abstract class A{
      abstract void sd();  
